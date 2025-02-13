@@ -1,0 +1,7 @@
+s = input()
+t = input()
+a = 1
+for i in t:
+    if i == s[a - 1]:  
+        a += 1
+print(a)
